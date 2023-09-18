@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Get more icons at https://ionic.io/ionicons -->
+
+<head>
+	<!----PLEASE REMOVE THIS IF YOU ARE GOING TO FORK THIS REPO ----------- Google tag (gtag.js) -------------------------------------------------------------------->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-EK9RC9WNKB"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-EK9RC9WNKB');
+	</script>
+	<!-- UP TO HERE -->
+	<!-------------------------------------------------------------------- Title -------------------------------------------------------------------->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content=" ">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ashfia Khanam</title>
+	<!-------------------------------------------------------------------- Favicon -------------------------------------------------------------------->
+	<link rel="shortcut icon" href="./assets/images/Sprite_heart.png" type="image/x-icon">
+	<!-------------------------------------------------------------------- Custom CSS link -------------------------------------------------------------------->
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<!-------------------------------------------------------------------- Google Font Link-------------------------------------------------------------------->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+	<!-------------------------------------------------------------------- Styling -------------------------------------------------------------------->
+	<style>
+		a:link {
+			color: #9e9436;
+			background-color: transparent;
+			text-decoration: none;
+		}
+
+		a:visited {
+			color: #9F894B;
+			background-color: transparent;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: #7b85b5;
+			background-color: transparent;
+			text-decoration: none;
+		}
+
+		a:active {
+			color: #e4e5ed;
+			background-color: transparent;
+			text-decoration: underline;
+		}
+
+		#rcprofile {
+			border-radius: 12px;
+		}
+
+		.tab {
+			text-indent: 40px;
+		}
+	</style>
+	<!-------------------------------------------------------------------- Script -------------------------------------------------------------------->
+	<script>
+		function myFunction() {
+			navigator.clipboard.writeText("ashfiajoty54@gmail.com")
+				.then(() => {
+					alert("Email Copied!");
+				})
+				.catch(() => {
+					alert("Something went wrong... But I can tell you that my email is ashfiajoty54@gmail.com");
+				});
+		}
+	</script>
+</head>
+
+<body>
+	<!-------------------------------------------------------------------- Main -------------------------------------------------------------------->
+	<main>
+		<!-------------------------------------------------------------------- Sidebar -------------------------------------------------------------------->
+		<aside class="sidebar" data-sidebar>
+			<div class="sidebar-info">
+				<figure class="avatar-box">
+					<img src="./assets/images/Profile-Picture.jpg" id="rcprofile" alt="Ashfia Khanam" width="80">
+				</figure>
+
+				<div class="info-content">
+					<h1 class="name" title="Ashfia Khanam">Ashfia Khanam</h1>
+					<p class="title">BRAC CSE Graduate</p>
+				</div>
+				<button class="info_more-btn" data-sidebar-btn>
+					<span>Show Contacts</span>
+					<ion-icon name="chevron-down"></ion-icon>
+				</button>
+			</div>
+			<!-------------------------------------------------------------------- Sidebar Info -------------------------------------------------------------------->
+			<div class="sidebar-info_more">
+				<div class="separator"></div>
+				<ul class="contacts-list">
+					<li class="contact-item">
+						<div class="icon-box">
+							<ion-icon name="mail-outline"></ion-icon>
+						</div>
+						<div class="contact-info">
+							<p class="contact-title">Email</p>
+							<button class="form-btn" onclick="myFunction()">
+								<ion-icon name="copy-outline"></ion-icon>
+								<span> Copy Email </span>
+							</button>
+						</div>
+					</li>
+					<li class="contact-item">
+						<div class="icon-box">
+							<ion-icon name="phone-portrait-outline"></ion-icon>
+						</div>
+						<div class="contact-info">
+							<p class="contact-title">Phone</p>
+							<a href="tel:+13439984929" class="contact-link">Ask me in email</a>
+						</div>
+					</li>
+					<li class="contact-item">
+						<div class="icon-box">
+							<ion-icon name="location-outline"></ion-icon>
+						</div>
+						<div class="contact-info">
+							<p class="contact-title">Location</p>
+							<address>Dhaka, Bangladesh</address>
+						</div>
+					</li>
+					<li class="contact-item">
+						<div class="icon-box">
+							<ion-icon name="download-outline"></ion-icon>
+						</div>
+						<div class="contact-info">
+							<p class="contact-title">Resume</p>
+							<button class="form-btn"
+								onclick="window.location.href='https://github.com/ashfiakhanam/my_cv/blob/main/README.md';">
+								<ion-icon name="create-outline"></ion-icon>
+								<span> Download </span>
+							</button>
+						</div>
+					</li>
+				</ul>
+				<!-------------------------------------------------------------------- Sidebar Socials -------------------------------------------------------------------->
+				<div class="separator"></div>
+				<ul class="social-list">
+					<!--	Social Template
+          				<li class="social-item">
+            					<a href="#" class="social-link">
+              						<ion-icon name="logo-facebook"></ion-icon>
+            					</a>
+          				</li>
+					-->
+					<li class="social-item">
+						<a href="https://linkedin.com/in/ashfia-khanam-3922981b0 class="social-link">
+							<ion-icon name="logo-linkedin"></ion-icon>
+						</a>
+					</li>
+					<li class="social-item">
+						<a href="https://instagram.com/ashfiajoty54" class="social-link">
+							<ion-icon name="logo-instagram"></ion-icon>
+						</a>
+					</li>
+					<li class="social-item">
+						<a href="https://github.com/ashfiakhanam" class="social-link">
+							<ion-icon name="logo-github"></ion-icon>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</aside>
+		<!-------------------------------------------------------------------- Main Content -------------------------------------------------------------------->
+		<div class="main-content">
+			<!-------------------------------------------------------------------- Navbar -------------------------------------------------------------------->
+			<nav class="navbar">
+				<ul class="navbar-list">
+					<!--	Navbar Tab Template
+          				<li class="navbar-item">
+            					<button class="navbar-link" data-nav-link>Blog</button>
+          				</li>
+				-->
+					<li class="navbar-item">
+						<button class="navbar-link  active" data-nav-link>About</button>
+					</li>
+					<li class="navbar-item">
+						<button class="navbar-link" data-nav-link>Resume</button>
+					</li>
+					<li class="navbar-item">
+						<button class="navbar-link" data-nav-link>Projects</button>
+					</li>
+				</ul>
+			</nav>
+			<!-------------------------------------------------------------------- About -------------------------------------------------------------------->
+			<article class="about  active" data-page="about">
+				<header>
+					<h2 class="h2 article-title">About me</h2>
+				</header>
+				<section class="about-text">
+					<p>I am a highly motivated individual, with a background in Computer Science & Engineering. My experience in the world of technology has been exhilarating, providing me with opportunities to learn and grow. I thrive on challenges. Find satisfaction in tackling complex problem-solving tasks whether it involves coding elegant solutions or exploring the intricacies of data analysis and machine learning.</p>
+					<p>My passion for programming extends to both front-end and back-end development, where I have gained proficiency in languages such as Python and JavaScript. I derive joy from creating user interfaces and building robust, efficient software systems. With a foundation in web development, I have contributed to projects, including e-commerce websites and data-driven applications.</p>
+					<p>Throughout my journey, I have honed my skills, developed a deep understanding of computer science concepts. Recently, I graduated with a Bachelor's degree in Computer Science & Engineering from BRAC University.</p>
+					<p>In addition, effective communication skill is one of my strengths. Collaborating harmoniously within teams is something that drives me because I firmly believe that great solutions arise from efforts. Working together allows us to bring ideas to life.</p>
+				</section>
+				<!-------------------------------------------------------------------- Skills -------------------------------------------------------------------->
+				<section class="service">
+					<h3 class="h3 service-title">Skills</h3>
+					<ul class="service-list">
+						<li class="service-item">
+							<div class="service-icon-box">
+								<img src="./assets/images/icon-quote.svg" alt="Communication" width="40">
+							</div>
+							<div class="service-content-box">
+								<h4 class="h4 service-item-title">Communication</h4>
+								<p class="service-item-text">
+									Effective communication skills for handeling clients and working in teams.
+								</p>
+							</div>
+						</li>
+						<li class="service-item">
+							<div class="service-icon-box">
+								<img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+							</div>
+							<div class="service-content-box">
+								<h4 class="h4 service-item-title">Programming</h4>
+								<p class="service-item-text">
+									Python, Java, PHP,  HTML, CSS JavaScript, Arduino, RPi, Markdown, laTeX, Bash
+								</p>
+							</div>
+						</li>
+						<li class="service-item">
+							<div class="service-icon-box">
+								<img src="./assets/images/logo-microsoft.svg" alt="Microsoft Logo" width="40">
+							</div>
+							<div class="service-content-box">
+								<h4 class="h4 service-item-title">Microsoft Office</h4>
+								<p class="service-item-text">
+									Porficient in Excel, Word, Teams with good knowledge in the other applications
+								</p>
+							</div>
+						</li>
+						<li class="service-item">
+							<div class="service-icon-box">
+								<img src="./assets/images/chatbubbles.svg" alt="Bilingual" width="40">
+							</div>
+							<div class="service-content-box">
+								<h4 class="h4 service-item-title">Bilingual</h4>
+								<p class="service-item-text">
+									Fluent in both Bangla and English
+								</p>
+							</div>
+						</li>
+					</ul>
+				</section>
+				<!-------------------------------------------------------------- Not Needed But Can't Be Commented Out -------------------------------------------------------------->
+				<!-------------------------------------------------------------------- Testimonials Model -------------------------------------------------------------------->
+				<div class="modal-container" data-modal-container>
+					<div class="overlay" data-overlay></div>
+					<section class="testimonials-modal">
+						<button class="modal-close-btn" data-modal-close-btn></button>
+					</section>
+				</div>
+				<!-------------------------------------------------------------------- Employers -------------------------------------------------------------------->
+				<!-- Employers Template
+				<section class="clients">
+					<h3 class="h3 clients-title">Companies</h3>
+					<ul class="clients-list has-scrollbar">
+
+						<*	Employer Template
+	    						<li class="clients-item">
+              							<a href="#">
+                							<img src="./assets/images/logo-3-color.png" alt="client logo">
+              							</a>
+            						</li>
+							*>
+
+						<li class="clients-item">
+							<a href="https://brp.com">
+								<img src="./assets/images/BRPPNG.png" alt="BRP">
+							</a>
+						</li>
+						<li class="clients-item">
+							<a href="https://precikam.com/">
+								<img src="./assets/images/PrecikamPNG.png" alt="PreciKam">
+							</a>
+						</li>
+						<li class="clients-item">
+							<a href="https://battleshield.ca/">
+								<img src="./assets/images/BattleShieldPNG.png" alt="Battleshield">
+							</a>
+						</li>
+						<li class="clients-item">
+							<a href="https://Bracunet.ca/">
+								<img src="./assets/images/LimogesSelfStoragePNG.png" alt="Limoges Self Storage">
+							</a>
+						</li>
+					</ul>
+				</section>
+				-->
+			</article>
+			<!-------------------------------------------------------------------- Resume -------------------------------------------------------------------->					
+			<article class="resume" data-page="resume">
+				<header>
+					<h2 class="h2 article-title">Resume</h2>
+				</header>
+				<section class="timeline">
+					<div class="title-wrapper">
+						<div class="icon-box">
+							<ion-icon name="school-outline"></ion-icon>
+						</div>
+						<h3 class="h3">Education</h3>
+					</div>
+					<ol class="timeline-list">
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">BSc in Computer Science & Engineering</h4>
+							<span>BRAC University, Dhaka, Bangladesh</span>
+							<span>May 2018 - May 2023</span>
+							<p class="timeline-text">CGPA: 3.88/4.00</p>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Higher Secondary School Certificate</h4>
+							<span>Dhaka City College, Dhaka, Bangladesh</span>
+							<span>August 2015 - August 2017</span>
+							<p class="timeline-text">GPA: 5.00/5.00</p>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Secondary School Certificate</h4>
+							<span>Tejgoan Govt. Girls' High School, Dhaka, Bangladesh</span>
+							<span>January 2005 - May 2015</span>
+							<p class="timeline-text">GPA: 5.00/5.00</p>
+						</li>
+					</ol>
+				</section>
+				<section class="timeline">
+					<div class="title-wrapper">
+						<div class="icon-box">
+							<ion-icon name="chatbubbles-outline"></ion-icon>
+						</div>
+						<h3 class="h3">Work Experience</h3>
+					</div>
+					<ol class="timeline-list">
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Student Tutor</h4>
+							<span>Dept. of Computer Science and Engineering, BRAC University, Dhaka, Bangladesh</span>
+							<span>(January 2022 - May 2023)</span>
+							<p class="timeline-text">
+								• Instructed and mentored students in Discrete Mathematics and Python programming languages.
+								• Crafted engaging learning materials and conducted problem-solving sessions.
+								• Guided students in effective study techniques and academic growth.
+								• Assessed and graded assignments and exams, providing valuable feedback.
+								• Actively participated in university and departmental meetings.
+								• Dedicated 12-15 hours per week to student consultation.
+							</p>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Instructor</h4>
+							<span>RS Residential Campus, BRAC University, Dhaka, Bangladesh</span>
+							<span>(January 2020 - March 2020)</span>
+							<p class="timeline-text">
+								• Delivered instruction in English, Bangla, and Mathematics to underprivileged students.
+								• Designed and executed well-structured lesson plans.
+								• Created thoughtful assessment questions and evaluated assignments.
+								• Supported university activities, including games and musical events.
+								• Actively contributed to collaborative initiatives.
+							</p>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Instructor</h4>
+							<span>English and Chemistry Confirm Academic and Admission Care, Dhaka</span>
+							<span>(October 2020 - November 2022)</span>
+							<p class="timeline-text">
+								• Taught Class 9 and 10.
+								• Prepared the lesson plan for students and conducted theoretical, tutorial, and practical classes.
+								• Prepared questions, invigilated exams, graded scripts and assignments.
+								• Attended meetings of the Coaching when invited.
+							</p>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Internship Student</h4>
+							<span>GAOTek inc., Remote</span>
+							<span>(August 2021 - November 2021)</span>
+							<p class="timeline-text">
+								• Learnt hands-on expertise, work ethics, and team spirit.
+								• Attended meetings of the company and the Technical Department when invited.
+								• Maintained 8 hours of office work per week.
+							</p>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Instructor</h4>
+							<span>Bangla E2D World School, Remote</span>
+							<span>(September 2019 - January 2020)</span>
+							<p class="timeline-text">
+								• Prepared the lesson plan for students and practical classes.
+								• Provided assistance in different activities like writing, programming.
+								• Attended meetings for 6 hours per week.
+							</p>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Instructor</h4>
+							<span>English Crescent Education, Dhaka</span>
+							<span>(November 2018 - April 2019)</span>
+							<p class="timeline-text">
+								• Taught for Admission Test (IBA BBA & MBADU, JU, NSU, AUST, EWE BRAC).
+								• Prepared the lesson plan for students and practical classes.
+								• Prepared questions, invigilated exams, graded scripts and assignments.
+							</p>
+						</li>
+					</ol>
+				</section>
+				<section class="timeline">
+					<div class="title-wrapper">
+						<div class="icon-box">
+							<ion-icon name="star-outline"></ion-icon>
+						</div>
+						<h3 class="h3">Honors, Awards & Certifications</h3>
+					</div>
+					<ol class="timeline-list">
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Merit Scholarship Based on BracU Academic Results</h4>
+							<p class="timeline-text">Received a 100% scholarship and a 50% merit-based scholarship.</p>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Champion in College Carrom Competition</h4>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Runner-up in College Chess Competition</h4>
+						</li>
+					</ol>
+				</section>
+				
+				<section class="timeline">
+					<div class="title-wrapper">
+						<div class="icon-box">
+							<ion-icon name="code-outline"></ion-icon>
+						</div>
+						<h3 class="h3">Skills & Interests</h3>
+					</div>
+					<ol class="timeline-list">
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Programming Languages</h4>
+							<p class="timeline-text">Python, Java</p>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Web Development</h4>
+							<p class="timeline-text">HTML, CSS, PHP, MySQL</p>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Software & Tools</h4>
+							<p class="timeline-text">Anaconda, VSCode, Packet Tracker, Proteus</p>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Miscellaneous</h4>
+							<p class="timeline-text">MS Word, MS PowerPoint, MS Excel, LaTeX, GitHub</p>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Soft Skills</h4>
+							<p class="timeline-text">Communicative, Leadership, Collaborative, Proactive, Punctual, Pressure Handling, Multi-tasking</p>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Interests</h4>
+							<p class="timeline-text">Web Development, UI-UX design, Image Processing</p>
+						</li>
+					</ol>
+				</section>
+				
+				<section class="timeline">
+					<div class="title-wrapper">
+						<div class="icon-box">
+							<ion-icon name="document-text-outline"></ion-icon>
+						</div>
+						<h3 class="h3">Research Work & Publications</h3>
+					</div>
+					<ol class="timeline-list">
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Paper I</h4>
+							<p class="timeline-text">Automated Image Caption Generator in Bangla Using Multimodal Learning</p>
+						</li>
+					</ol>
+				</section>
+				
+				<section class="timeline">
+					<div class="title-wrapper">
+						<div class="icon-box">
+							<ion-icon name="construct-outline"></ion-icon>
+						</div>
+						<h3 class="h3">Projects</h3>
+					</div>
+					<ol class="timeline-list">
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Anti Theft Alarm and Notification System</h4>
+							<p class="timeline-text">An Arduino Project (CSE360: Computer Interfacing)</p>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">ECommerce Website</h4>
+							<p class="timeline-text">Using HTML, CSS, JS, SQL with Django Backend project. (CSE470: Software Engineering 2022)</p>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">ELearning Website</h4>
+							<p class="timeline-text">Using HTML, CSS, JS, PHP, SQL with Laravel Backend project (CSE471: System analysis and design 2022)</p>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">BRACU Network</h4>
+							<p class="timeline-text">Using efficient Routing, Simulation, Packet Tracer project (CSE421: Computer Networks 2023)</p>
+						</li>
+					</ol>
+				</section>
+				
+				<section class="timeline">
+					<div class="title-wrapper">
+						<div class="icon-box">
+							<ion-icon name="chatbox-ellipses-outline"></ion-icon>
+						</div>
+						<h3 class="h3">Language Proficiency</h3>
+					</div>
+					<ol class="timeline-list">
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">English</h4>
+							<p class="timeline-text">Fluent in speaking and listening; Excellent in writing</p>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Bengali</h4>
+							<p class="timeline-text">Native language</p>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Chinese</h4>
+							<p class="timeline-text">Basic learning</p>
+						</li>
+					</ol>
+				</section>
+				
+				<section class="timeline">
+					<div class="title-wrapper">
+						<div class="icon-box">
+							<ion-icon name="people-outline"></ion-icon>
+						</div>
+						<h3 class="h3">Extra-Curricular Activities</h3>
+					</div>
+					<ol class="timeline-list">
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Runner-up in Lalon Sangeet in Ochin Pakhi Sangeet Academy</h4>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Runner-up in Nazrul, Rabindra & Lalon Sangeet in College Singing competition</h4>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Runner-up in Dance competition at Lolitokola Academy</h4>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Runner-up in College Acting competition</h4>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Hosting in different cultural programs</h4>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Obtained several prizes in different competitions in school and college (Singing, Acting, Dance, Hamd-Naat, Recitation, Sports)</h4>
+						</li>
+					</ol>
+				</section>
+				
+				<section class="timeline">
+					<div class="title-wrapper">
+						<div class="icon-box">
+							<ion-icon name="people-circle-outline"></ion-icon>
+						</div>
+						<h3 class="h3">Club Activities</h3>
+					</div>
+					<ol class="timeline-list">
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">BracU Mongol Tori Member of Ai & Autonomous Robotics Club of BRAC University – ROBU</h4>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">BRAC University Cultural Club - BUCuC Apprentice of Event Management</h4>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">BRAC University Adventure Club - BUAC Assistant Secretary (Performer)</h4>
+						</li>
+					</ol>
+				</section>
+				
+				<section class="timeline">
+					<div class="title-wrapper">
+						<div class="icon-box">
+							<ion-icon name="hand-left-outline"></ion-icon>
+						</div>
+						<h3 class="h3">Volunteering</h3>
+					</div>
+					<ol class="timeline-list">
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Campus Ambassador</h4>
+							<span>WFH Foundation</span>
+							<span>Aug 2021 - Oct 2022</span>
+							<p class="timeline-text">Human Rights</p>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Campus Ambassador</h4>
+							<span>British Educare</span>
+							<span>Aug 2021 - Nov 2022</span>
+							<p class="timeline-text">Education</p>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">General Member</h4>
+							<span>International Model United Nations Association (IMUNA)</span>
+							<span>Aug 2021 - Nov 2022</span>
+							<p class="timeline-text">Education</p>
+						</li>
+						<li class="timeline-item">
+							<h4 class="h4 timeline-item-title">Volunteer</h4>
+							<span>Fresh Tissues</span>
+							<span>Jun 2021 - Aug 2021</span>
+							<p class="timeline-text">Health</p>
+						</li>
+					</ol>
+				</section>
+				
+
+			</article>
+<!-------------------------------------------------------------------- Portfolio -------------------------------------------------------------------->
+<article class="projects" data-page="projects">
+	<header>
+		<h2 class="h2 article-title">Projects</h2>
+	</header>
+	<section class="projects">
+		<ul class="filter-list">
+			<li class="filter-item">
+				<button class="active" data-filter-btn>All</button>
+			</li>
+			<li class="filter-item">
+				<button data-filter-btn>Interfacing</button>
+			</li>
+			<li class="filter-item">
+				<button data-filter-btn>Web</button>
+			</li>
+			<li class="filter-item">
+				<button data-filter-btn>Networking</button>
+			</li>
+		</ul>
+		<div class="filter-select-box">
+			<button class="filter-select" data-select>
+				<div class="select-value" data-selecct-value>Select category</div>
+				<div class="select-icon">
+					<ion-icon name="chevron-down"></ion-icon>
+				</div>
+			</button>
+			<ul class="select-list">
+				<li class="select-item">
+					<button data-select-item>All</button>
+				</li>
+				<li class="select-item">
+					<button data-select-item>Interfacing</button>
+				</li>
+				<li class="select-item">
+					<button data-select-item>Web</button>
+				</li>
+				<li class="select-item">
+					<button data-select-item>Networking</button>
+				</li>
+			</ul>
+		</div>
+		<ul class="project-list">
+			<!-------------------------------------------------------------------- Interfacing -------------------------------------------------------------------->
+			<li class="project-item  active" data-filter-item data-category="interfacing">
+				<a href="https://youtu.be/zG5A3tdKUxI?si=QN6EGqrGIxVYQzQy" target=”_blank”>
+					<figure class="project-img">
+						<div class="project-item-icon-box">
+							<ion-icon name="eye-outline"></ion-icon></button>
+						</div>
+						<img src="./assets/images/AntiTheft.jpg" alt="AntiTheft Alarm" loading="lazy">
+					</figure>
+					<h3 class="project-title">Anti Theft Alarm and Notification System</h3>
+					<p class="project-category">Interfacing</p>
+				</a>
+			</li>
+			<!-------------------------------------------------------------------- Web -------------------------------------------------------------------->
+			<li class="project-item  active" data-filter-item data-category="web">
+				<a href="https://www.youtube.com/watch?v=auvVGIwtDug" target=”_blank”>
+					<figure class="project-img">
+						<div class="project-item-icon-box">
+							<ion-icon name="eye-outline"></ion-icon>
+						</div>
+						<img src="./assets/images/ECommerce.jpg" alt="ECommerce Website"
+							loading="lazy">
+					</figure>
+					<h3 class="project-title">ECommerce Website</h3>
+					<p class="project-category">Web</p>
+				</a>
+			</li>
+			<li class="project-item  active" data-filter-item data-category="web">
+				<a href="ELearning" target=”_blank”>
+					<figure class="project-img">
+						<div class="project-item-icon-box">
+							<ion-icon name="eye-outline"></ion-icon>
+						</div>
+						<img src="./assets/images/ELearning.jpg" alt="ELearning Website"
+							loading="lazy">
+					</figure>
+					<h3 class="project-title">ELearning Website</h3>
+					<p class="project-category">Web</p>
+				</a>
+			</li>
+			<!-------------------------------------------------------------------- Networking -------------------------------------------------------------------->
+			<li class="project-item  active" data-filter-item data-category="networking">
+				<a href="BracuNetwork" target=”_blank”>
+					<figure class="project-img">
+						<div class="project-item-icon-box">
+							<ion-icon name="eye-outline"></ion-icon>
+						</div>
+						<img src="./assets/images/BracuNetwork.jpg" alt="Bracu Network"
+							loading="lazy">
+					</figure>
+					<h3 class="project-title">BRACU Network</h3>
+					<p class="project-category">Networking</p>
+				</a>
+			</li>
+		</ul>
+	</section>
+</article>
+<!-------------------------------------------------------------------- Custom JS Link -------------------------------------------------------------------->
+<script src="./assets/js/script.js"></script>
+<!-------------------------------------------------------------------- ionicon link -------------------------------------------------------------------->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
